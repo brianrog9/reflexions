@@ -7,7 +7,6 @@
     border-color:black;
     padding:3rem;
     margin-top:-6rem;
-    margin-right:114rem;
     margin-left:4rem;
   }
   
@@ -38,4 +37,71 @@
   
   .container {
     margin-left:20px;
+    max-width:715px;
   }
+
+  .altwork__container {
+    margin-left:20px;
+    max-width:450px;
+  }
+
+  .altwork__caption {
+    position:relative;
+    z-index:10;
+    background-color: #fff;
+    border:solid;
+    border-width: 3px;
+    border-color:black;
+    display: inline-block;
+    width:100%;
+    top:-400px;
+    left:520px;
+    padding:2rem;
+  }
+
+  .altwork__img {
+    width:640px;
+  }
+  
+  .altwork__project {
+    display:block;
+    width:100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color:black;
+  }
+  
+  .altworkproject__name {
+    font-size:2rem;
+    font-family: halyard-micro, sans-serif;
+    font-weight:500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .altworkproject__desc {
+    line-height: 1.5;
+    margin-bottom:1rem;
+    font-family: halyard-micro, sans-serif;
+    font-weight:300;
+    font-style: normal;
+    font-size:1.37rem;
+  }
+
+  .button {
+    display:inline-block;
+    text-decoration: none;
+    font-family: halyard-micro, sans-serif;
+    font-weight: 500;
+    font-size:1.1rem;
+    color:#fff;
+    background:#e86c1f;
+    padding:.9rem 1.2rem;
+  }
+
+  .button:hover {
+    background:white;
+    border:#e86c1f solid 3px;
+    color:#e86c1f;
+  }
+
